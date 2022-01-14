@@ -11,23 +11,23 @@ body{
  --------*/
 .header{
     display:flex;
-   flex-direction: column;
-   align-items: center;
-   background-color:#562EFF;
-   color: white;  
+    flex-direction: column;
+    align-items: center;
+    background-color:#562EFF;
+    color: white;  
 }
 .header-area{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
     width:900px; 
 }
-.header-area.light{
-    font-size: 30px;
+.header-left img{
+    width:40px;
     margin-right: 10px;
 }
-span{
+.span{
     font-size: 25px;
 }
 .header-right a{
