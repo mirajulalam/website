@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
     width:900px; 
 }
 .header-left img{
@@ -34,9 +34,15 @@ body{
     text-decoration: none;
     margin-right:20px;
     color: white;
+    align-items: center;
 }
-.fa-sign-out-alt .log-in{
-    font-size: 30px;
+.header-right img{
+    width: 40px;
+}
+.header-left,.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*------
  main
